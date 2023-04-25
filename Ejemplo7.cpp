@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "iostream"
+#include <wchar.h>
+#include <locale.h>
 using namespace System;
 using namespace std;
 
@@ -60,6 +62,8 @@ void cara_seis()
 
 int main()
 {
+    setlocale(LC_ALL, "");
+    
     int dado1, dado2;
     
     /*//INGRESA MANUALMENTE
